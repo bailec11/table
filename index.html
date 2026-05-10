@@ -12,14 +12,15 @@
 		background: white;
 		margin: 0 auto;
 		border: 1px solid dimgray;
-		box-shadow: 2px 3px 6px dimgray;
+		box-shadow: 2px 3px 6px rgb(232, 255, 226);
 	} table { 
 		margin: 48px auto;
 		font: 14pt/1.4em Candera; 
-	} td { 
+        border-collapse: collapse;
+	} td, th { 
 		padding: 6px 12px; 
 	} tr:nth-child(odd) {
-		background:  #C5E4FF
+		background:  #ffe5c5
 	}
 
 </style>
@@ -28,14 +29,13 @@
 <body>
 	<div id="page">
     <table>
-		
         <tr>
-            <td>List of work and data </td>
+            <th colspan="3"> Artwork and data </th>
         </tr>
         <tr>
-            <td> Art</td>
-            <td> file format</td>
-            <td> file size</td>
+            <th> Art</th>
+            <th> file format</th>
+            <th> file size</th>
         </tr>
         <tr>
             <td> Daisy</td>
